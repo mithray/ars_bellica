@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent='structures/athen_civil_centre_town'>
+  <Identity>
+    <Classes datatype='tokens'>cityCentre</Classes>
+    <VisibleClasses datatype='tokens'>cityCentre</VisibleClasses>
+    <GenericName>City Centre</GenericName>
+  </Identity>
+  <TerritoryInfluence>
+    <Radius op='add'>30</Radius>
+    <Weight op='add'>30</Weight>
+  </TerritoryInfluence>
+  <Auras datatype='tokens'>
+    structures/civil_centre_city_cs
+    structures/civil_centre_city_structure
+  </Auras>
+  <Promotion disable='' />
+</Entity>
