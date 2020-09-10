@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent='structures/athen_civil_centre'>
+<Entity parent='structures/maur_civil_centre'>
   <Identity>
     <Classes>VillageCentre+ TownCentre+ TownCentre CivCentre Defensive CivilCentre Town</Classes>
     <VisibleClasses>Town Centre</VisibleClasses>
@@ -12,6 +12,6 @@
   </TerritoryInfluence>
   <Promotion>
     <RequiredXp>10000</RequiredXp>
-    <Entity>structures/athen_civil_centre_city</Entity>
+    <Entity>structures/maur_civil_centre_city</Entity>
   </Promotion>
 </Entity>

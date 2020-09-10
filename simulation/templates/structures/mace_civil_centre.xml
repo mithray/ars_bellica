@@ -4,23 +4,23 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>mace</Civ>
     <SpecificName>Agora</SpecificName>
     <Classes>VillageCentre+ VillageCentre CivCentre Defensive CivilCentre Village</Classes>
     <VisibleClasses>Village Centre</VisibleClasses>
     <GenericName>Village Centre</GenericName>
   </Identity>
   <ProductionQueue>
-    <Entities datatype='tokens'>units/{civ}_infantry_spearman_b
-      units/{civ}_infantry_slinger_b
-      units/{civ}_cavalry_javelineer_b</Entities>
+    <Entities datatype='tokens'>units/{civ}_infantry_pikeman_b
+      units/{civ}_infantry_javelineer_b
+      units/{civ}_cavalry_spearman_b</Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/athenians/civil_centre.xml</Actor>
+    <Actor>structures/macedonians/civic_centre.xml</Actor>
   </VisualActor>
   <Auras datatype='tokens'>structures/civil_centre_village_cs structures/civil_centre_village_structure</Auras>
   <Promotion>
-    <RequiredXp>1000</RequiredXp>
-    <Entity>structures/athen_civil_centre_town</Entity>
+    <RequiredXp>5000</RequiredXp>
+    <Entity>structures/mace_civil_centre_town</Entity>
   </Promotion>
 </Entity>

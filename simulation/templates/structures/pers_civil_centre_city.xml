@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent='structures/athen_civil_centre_town'>
+<Entity parent='structures/pers_civil_centre_town'>
   <Identity>
     <Classes>VillageCentre+ TownCentre+ CityCentre+ CityCentre CivCentre Defensive CivilCentre City</Classes>
     <VisibleClasses>City Centre</VisibleClasses>
